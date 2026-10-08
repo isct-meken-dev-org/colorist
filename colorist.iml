@@ -2,7 +2,14 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src-tauri/command-wrapper/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src-tauri/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src-tauri/command-collector/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src-tauri/command-wrapper/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src-tauri/target" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
